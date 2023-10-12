@@ -14,13 +14,13 @@ const App = () => {
         <>
             <BrowserRouter>
                 <NavBar />
-                <section className="content-section">
+                <div className="container-fluid p-0">
                     <Routes>
                         <Route path="/" element = {<HomePage />}></Route>
                         <Route path="/projects" element={<Projects/>}></Route>
                         <Route path="/resume" element={<Resume/>}></Route>
                     </Routes>
-                </section>
+                </div>
             </BrowserRouter>
         </>
     )
