@@ -4,7 +4,7 @@ import Listing from "../../components/listing/listings";
 const Resume = () => {
     return (
         <div className="content-section-content">
-            <h2 className="mb-5">Resume</h2>
+            <h2 className="mb-5">Experience</h2>
             <Listing
                 title="Software Development Engineer"
                 subTitle="Amazon"
