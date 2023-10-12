@@ -13,13 +13,13 @@ const App = () => {
         <>
             <BrowserRouter>
                 <NavBar />
-                <span className="container">
+                <section className="content-section">
                     <Routes>
                         <Route path="/" element = {<HomePage />}></Route>
                         <Route path="/projects" element={<Projects/>}></Route>
                         <Route path="/resume" element={<Resume/>}></Route>
                     </Routes>
-                </span>
+                </section>
             </BrowserRouter>
         </>
     )

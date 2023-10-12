@@ -10,6 +10,9 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ @import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700");
+ @import url("https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10944,7 +10947,7 @@ p.lead {
   font-size: 3rem;
 }
 
-section.resume-section {
+section.content-section {
   display: flex;
   align-items: center;
   padding-left: 1rem;
@@ -10953,17 +10956,17 @@ section.resume-section {
   padding-bottom: 5rem;
   max-width: 75rem;
 }
-section.resume-section .resume-section-content {
+section.content-section .content-section-content {
   width: 100%;
 }
 
 @media (min-width: 768px) {
-  section.resume-section {
+  section.content-section {
     min-height: 100vh;
   }
 }
 @media (min-width: 992px) {
-  section.resume-section {
+  section.content-section {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 5rem;
