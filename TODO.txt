@@ -1,0 +1,9 @@
+* Nav bar
+* Setup react router 
+* Home page
+* Resume page
+* Create listing component for both resume/projects
+    - able to put image on left or right side
+    - descripton
+    - date range
+    - summary (Text that allows html)

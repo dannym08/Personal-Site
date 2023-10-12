@@ -1,0 +1,49 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "my personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "Webpack .",
+    "start": "webpack-dev-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannym08/Personal-Site.git"
+  },
+  "author": "Danny Mardirousi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannym08/Personal-Site/issues"
+  },
+  "homepage": "https://github.com/dannym08/Personal-Site#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/eslint-parser": "^7.22.15",
+    "@babel/plugin-transform-runtime": "^7.22.15",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-react": "^7.22.15",
+    "@babel/runtime": "^7.23.1",
+    "babel-loader": "^9.1.3",
+    "bootstrap": "^5.3.2",
+    "css-loader": "^6.8.1",
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-jest": "^27.4.2",
+    "html-react-parser": "^4.2.2",
+    "path": "^0.12.7",
+    "react-bootstrap": "^2.9.0",
+    "react-router-dom": "^6.16.0",
+    "style-loader": "^3.3.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
