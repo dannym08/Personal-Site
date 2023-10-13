@@ -5,7 +5,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 const HomePage = () => {
     return (
-        <>
+        <section className="content-section">
             <div className="content-section-content">
                 <h1 className="mb-0">
                     Daniel
@@ -20,7 +20,7 @@ const HomePage = () => {
                     <a className="social-icon" href="https://github.com/dannym08" target="_blank"><FontAwesomeIcon icon={faGithub}/></a>
                 </div>
             </div>
-        </>
+        </section>
     )
 
 }
