@@ -8,6 +8,7 @@ import HomePage from "./pages/Homepage/homepage"
 import Projects from "./pages/projects/projects"
 import NavBar from "./components/NavBar/NavBar"
 import Resume from "./pages/resume/resume"
+import Dotl from "./pages/dotl/dotl"
 
 const App = () => {
     return (
@@ -19,6 +20,7 @@ const App = () => {
                         <Route path="/" element = {<HomePage />}></Route>
                         <Route path="/projects" element={<Projects/>}></Route>
                         <Route path="/resume" element={<Resume/>}></Route>
+                        <Route path="/dotl" element={<Dotl/>}/>
                     </Routes>
                 </div>
             </BrowserRouter>
