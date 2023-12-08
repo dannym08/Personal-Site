@@ -3,7 +3,7 @@ import React from "react"
 import { useState } from "react"
 
 const Dotl = () => {
-    const [currency, setCurrency] = useState(0);
+    const [currency, setCurrency] = useState(1);
 
     return (
         <section className="content-section">

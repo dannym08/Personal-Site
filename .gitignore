@@ -1,3 +1,5 @@
 node_modules
 public/*
 !public/index.html
+external_scripts/config.py
+external_scripts/__pycache__
