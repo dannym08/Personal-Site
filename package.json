@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "Webpack .",
-    "start": "webpack-dev-server ."
+    "start": "webpack-dev-server .",
+    "deploy": "py external_scripts/build_and_deploy.py"
   },
   "repository": {
     "type": "git",
